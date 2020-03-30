@@ -3,6 +3,8 @@ class Dog
     @name = name
   end
   def initialize(breed)
+    @breed = breed
+  end 
 end
 
 Fido = Dog.new("Mutt")
